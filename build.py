@@ -51,7 +51,7 @@ python modules\start.py
         pause()
         cls()
         try:
-            print(colored("Starting Hydra...",'green'))
+            print(colored("Starting Slave...",'green'))
             os.system("python modules\start.py")
         except Exception as e:
             print(colored(f"Error trying to run bot: {e}",'red'))
@@ -62,7 +62,7 @@ python modules\start.py
 
 def main():
     cls()
-    os.system("title Hydra Mass DM Bot by RIOT Administration")
+    os.system("title KAYD'S Mass DM Bot by KAYD Administration")
     print(colored("WARNING: Enable all 3 privileged gateway intents on the bot's page.",'red'))
     print(colored("WARNING: Turn on developer mode from SETTINGS > Advanced > Developer mode",'red'))
     print(colored("WARNING: Ensure the bot is invited in the server you are mass DMing members from.",'red'))
